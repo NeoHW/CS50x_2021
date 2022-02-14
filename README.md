@@ -1,67 +1,119 @@
-# [CS50x 2021 — Introduction to Computer Science](https://cs50.harvard.edu/x/2021/) - Problem Sets
+# CS50x 2021
 
-## [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/)
+My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.harvard.edu/x/2021/).
+
+## Table of Contents
+
+- [Week 1: C](#week-1)
+- [Week 2: Arrays](#week-2)
+- [Week 3: Algorithms](#week-3)
+- [Week 4: Memory](#week-4)
+- [Week 5: Data Structures](#week-5)
+- [Week 6: Python](#week-6)
+- [Week 7: SQL](#week-7)
+- [Week 8: HTML,CSS,JaveScript](#week-8)
+- [Week 9: Flask](#week-9)
+- [Week 10 Ethics](#week-10)
+- Final Project
 
 
-- [Lab 1: Population Growth](/lab1)
+## Week 1
 
-- [Problem Set 1: C](/pset1)
+### Lab 1
 
-  - [hello](/pset1/hello)
-  - mario :mushroom:
-    - [less](/pset1/mario/less)
-    - [more](/pset1/mario/more)
-  - [cash](/pset1/cash)
-  - [credit](/pset1/credit)
+* [Population](week1/lab1/population/population.c)
 
-- [Lab 2: Scrabble](/lab2)
-- [Problem Set 2: Arrays](/pset2)
-  - [readability](/pset2/readability)
-  - [caesar](/pset2/caesar)
-  - [substitution](/pset2/substitution)
+### Problem set 1
 
-- [Lab 3: Sort](/lab3)
+* [Mario more version](week1/pset1/mario/mario.c)
+* [Cash](week1/pset1/cash/cash.c)
 
-- [Problem Set 3: Algorithms](/pset3)
-  - [plurality](pset3/plurality)
-  - [runoff](pset3/runoff)
-  - [tideman](pset3/tideman)
 
-- [Lab 4: Volume :musical_note:](/lab4)
+## Week 2
 
-- [Problem Set 4: Memory](/pset4)
-  - filter :framed_picture:
-    - [less](/pset4/filter/less)
-    - [more](/pset4/filter/more)
-  - [recover](/pset4/recover)
+### Lab 2
 
-  [Lab 5: Inheritance](/lab5)
+* [Scrabble](week2/lab2/scrabble/scrabble.c)
 
-- [Problem Set 5: Data Structures](/pset5)
-  - [speller](/pset5/speller)
+### Problem set 2
 
-[Lab 6: World Cup :soccer:](/lab6)
+* [Readability](week2/pset2/readability/readability.c)
+* [Caesar](week2/pset2/caesar/caesar.c)
 
-- [Problem Set 6: Python :snake:](/pset6)
-  - [hello](/pset6/hello)
-  - mario
-    - [less](/pset6/mario/less)
-    - [more](/pset6/mario/more)
-  - [cash :moneybag:](/pset6/cash)
-  - [credit :credit_card:](/pset6/credit)
-  - [readability](/pset6/readability/)
-  - [dna](/pset6/dna)
+## Week 3
 
-- [Lab 7: Songs:notes:](/lab7)
+### Lab 3
 
-- [Problem Set 7: SQL](/pset7)
-  - [movies :cinema:](pset7/movies)
-  - [fiftyville](pset7/fiftyville)
+* [Sort](week3/lab3/sort/answers.txt)
 
-- [Lab 8: Trivia](/lab8)
+### Problem set 3
 
-- [Problem Set 8: Homepage](/pset8/homepage)
+* [Plurality](week3/pset3/plurality/plurality.c)
+* [Runoff](week3/pset3/runoff/runoff.c)
+* [Tideman](week3/pset3/tideman/tideman.c)
 
-- [Lab 9: Birthdays 🎂](/lab9) 
+## Week 4
 
-- [Problem Set 9: Finance :money_mouth_face:](/pset9/finance)
+### Lab 4
+
+* [Volume](week4/lab4/volume/volume.c)
+
+### Problem set 4
+
+* [Filter less version](week4/pset4/filter/helpers.c)
+* [Recover](week4/pset4/recover/recover.c)
+
+## Week 5
+
+### Lab 5
+
+* [Inheritance](week5/lab5/inheritance/inheritance.c)
+
+### Problem set 5
+
+* [Speller](week5/pset5/speller/dictionary.c)
+
+## Week 6
+
+### Lab 6
+
+* [Tournament](week6/lab6/tournament/tournament.py)
+
+### Problem set 6
+
+* [Hello - Python](week6/pset6/hello/hello.py)
+* [Mario more version - Python](week6/pset6/mario/mario.py)
+* [Cash - Python](week6/pset6/cash/cash.py)
+* [Readability - Python](week6/pset6/readability/readability.py)
+* [DNA](week6/pset6/dna/dna.py)
+
+## Week 7
+
+### Lab 7
+
+* [Songs](week7/lab7/songs)
+
+### Problem set 7
+
+* [Movies](week7/pset7/movies)
+* [fiftyville](week7/pset7/fiftyville)
+
+## Week 8
+
+### Lab 8
+
+* [Trivia](week8/lab8/trivia/index.html)
+
+### Problem set 8
+
+* [Homepage](week8/pset8/homepage)
+
+## Week 9
+
+### Lab 9
+
+* [Birthdays](week9/lab9/birthdays)
+
+### Problem set 9
+
+* [Finance](week9/pset9/finance)
