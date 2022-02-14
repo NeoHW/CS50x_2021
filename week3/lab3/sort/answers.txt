@@ -1,0 +1,15 @@
+sort1 uses: BUBBLE SORT
+
+How do you know?: compare sorting time of the 3 sorts using sorted5000, sorted10000 and sorted50000. For sorted50000, sort 1 was by far the fastest algorithm at
+                  4.1 seconds compared to the 8.6s(sort2) and 9.4s(sort3). With a sorted list, bubble sort would have the fastest timing as it has Ω(n) compared 
+                  to selection sort Ω(n^2) and merge sort Ω(n logn).
+
+sort2 uses: MERGE SORT
+
+How do you know?: compare sorting time of the 3 sorts using random5000, random10000 and random50000. Sort 2 took the least amount of time, with difference getting
+                  more obvious at random50000. Sort 2 took 4.8 seconds compared to 18.4(sort 1) and 12.840(sort3). Bubble sort have O(n logn) which is significantly
+                  fewer steps than selection sort and bubble sort with O(n^2)
+
+sort3 uses: SELECTION SORT
+
+How do you know?: As sort 1 is bubble sort and sort 2 is merge sort, sort 3 would be selection sort.
