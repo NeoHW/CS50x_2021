@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+        
+            // Run script once DOM is loaded
+            document.addEventListener('DOMContentLoaded',function() {
+                
+                // correct answer clicked, change to green and add correct
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector('#feedback1').innerHTML = 'Correct';
+                });
+                
+                // when any incorrect, change to red and add incorrect
+                // use document.querySelectorAll as there are more than 1, then use a for loop to iterate through
+                let incorrects = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrects.length; i++) {
+                    // note that document.querySelectorAll returns elements in an ARRAY
+                    incorrects[i].addEventListener('click', function() {
+                        incorrects[i].style.backgroundColor = 'red';
+                        document.querySelector('#feedback1').innerHTML = 'Incorrect'
+                    });
+                }
+
+            // script for open ended part
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    let inputValue = String(input.value)
+                    // check for case insensitivity
+                    if (inputValue.toLowerCase() == 'love') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#feedback2').innerHTML = 'Correct';
+                    } else{
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#feedback2').innerHTML = 'Incorrect';
+                    }
+                });
+                
+            });
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                
+                <h3>What does a Scoville unit measure? </h3>
+                <div>
+                    <button class="incorrect">Strength</button>
+                    <button class="correct">Spiciness</button>
+                    <button class="incorrect">Height</button>
+                    <button class="incorrect">Viscosity</button>
+                </div>
+                <div>
+                    <!-- create a paragraph where we can add text in later -->
+                    <p id='feedback1'></p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                
+                <h3>In ancient Greece, throwing an apple at someone was a declaration of what?</h3>
+                <div>
+                        <input autocomplete="off" placeholder="Type Answer" type="text"></input>
+                        <button id="check">Check Answer</button>
+                </div>
+                <div>
+                    <p id='feedback2'></p>
+                </div>
+                
+            </div>
+
+        </div>
+    </body>
+</html>

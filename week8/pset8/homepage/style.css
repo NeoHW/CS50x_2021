@@ -1,0 +1,100 @@
+/*top nav style*/
+.topnav {
+    overflow: hidden;
+    background-color: #dddddd;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    overflow: hidden; /*overflow:hidden is added to ul element to prevent li elements from going outside the list*/
+  }
+
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+li a:hover {
+    background-color: grey;
+  }
+
+.active{
+    background-color: violet;
+}
+
+/* Image style */
+
+img.image1{
+    max-width: 80%;
+    padding-top: 10%;
+    float:left;
+    width: 400px;
+    height: 500px;
+}
+
+
+/* header styles */
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #008EB3;
+}
+
+h2 {
+    color: #FF8618;
+}
+
+/* body style */
+body{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+}
+
+
+div.width2{
+    width: 100%;
+    margin: 100px;
+}
+
+div.hello {
+    width: 90%;
+    display: relative;
+}
+
+
+/* span style */
+span.red{
+    color: #C73B0C
+}
+
+
+/* classes style */
+/* use . for classes */
+.centered
+{
+    text-align: center;
+}
+
+.right
+{
+    text-align: right;
+}
+
+.left
+{
+    text-align: left;
+}
