@@ -11,7 +11,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 5: Data Structures](#week-5)
 - [Week 6: Python](#week-6)
 - [Week 7: SQL](#week-7)
-- [Week 8: HTML,CSS,JaveScript](#week-8)
+- [Week 8: HTML,CSS,JavaScript](#week-8)
 - [Week 9: Flask](#week-9)
 - Final Project
 
