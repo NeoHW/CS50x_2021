@@ -13,7 +13,6 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 7: SQL](#week-7)
 - [Week 8: HTML,CSS,JaveScript](#week-8)
 - [Week 9: Flask](#week-9)
-- [Week 10 Ethics](#week-10)
 - Final Project
 
 
